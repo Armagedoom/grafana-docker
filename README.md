@@ -14,7 +14,7 @@ docker run -d --name=grafana -p 3000:3000 grafana/grafana
 
 Try it out, default admin user is admin/admin.
 
-In case port 3000 is closed for external clients or you there is no access 
+In case port 3000 is closed for external clients or you have no access 
 to the browser - you may test it by issuing:
   curl -i localhost:3000/login
 Make sure that you are getting "...200 OK" in response.
